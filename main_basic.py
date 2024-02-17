@@ -69,8 +69,11 @@ texto2 = f'O {nome} {sobrenome} é um excelente {profissao}.'
 print(texto2)
 '''
 
+
 #metods for string
+'''
 mensagem = 'eu adoro churrasco.'
 #index      0123456789
 
 print(mensagem.strip())
+'''
