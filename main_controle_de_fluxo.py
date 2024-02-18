@@ -133,3 +133,32 @@ resultado = 'Voto Permitido' if 100 > idade >= 16 else 'Voto não permitido'
 
 print(resultado)
 '''
+
+#condições com while loop
+#publicar um produto com comissão de 10% se for acima de R$20
+
+
+# Modelo para analise sem break
+ 
+# var_valor = int(input('Digite o valor do produto R$: '))
+ 
+# while var_valor > 20:
+#   var_valor = (var_valor * .1)+var_valor
+#   print(f'O valor final do produto sera R$ {var_valor}')
+#   var_valor = 0
+ 
+# Modelo para analise com if
+ 
+# var_valor = int(input('Digite o valor do produto R$: '))
+ 
+# if var_valor > 20:
+#   var_valor = (var_valor * .1)+var_valor
+#   print(f'O valor final do produto sera R$ {var_valor}')
+
+valor = int(input('Digite o valor do produto em reais: '))
+
+
+while valor > 20:
+    valor = (valor * .1) + valor
+    print(f'O valor final do seu produto séra de R${valor}')
+    break
