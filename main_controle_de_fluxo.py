@@ -87,50 +87,32 @@ for numero1 in range(1, 6):
         print(f'Produto {numero1} está no lote {numero2}')
 '''
 
-#calculadora
+#Separando strings
+# palavra = 'Fantástico'
 
-print('Bem vindo a sua calculadora.')
-print('Você deseja fazer uma conta ou receber a tabuada?')
-soma_tabuada = input('Tabuada = 1 , Conta = 2: ')
-soma_tabuada = int(soma_tabuada)
+# for space in palavra:
+#     print(space, end=' ')
 
-if soma_tabuada == 2:
+#criar um retângulo com um símbolo específico
+#retângulo de 6x6
+'''
+linhas = 6
+colunas = 6
+simbolo = '@'
 
-    operacao = input('Escolha a operação matemática (+, -, *, /): ')
-    numero1 = input('Escolha o primeiro número: ')
-    numero1 = int(numero1)
-    numero2 = input('Escolha o segundo número: ')
-    numero2 = int(numero2)
+for l in range(linhas):
+    for c in range(colunas):
+        print(simbolo, end='')
+    print()
+'''
 
-    if operacao == '+':
-        numerofinal = str(numero1 + numero2)
-        print('O resultado é: ' + numerofinal)
-    elif operacao == '-':
-        numerofinal = str(numero1 - numero2)
-        print('O resultado é: ' + numerofinal)
-    elif operacao == '*':
-        numerofinal = str(numero1 * numero2)
-        print('O resultado é: ' + numerofinal)
-    else:
-        numerofinal = str(numero1 / numero2)
-        print('O resultado é: ' + numerofinal)
+#while loop
+#criar promoção para o produto no valor de R$100
 
-else:
-    operacao = input('Escolha a operação matemática (+, -, *, /): ')
-    numero1 = input('Escolha o seu número para a tabuada: ')
-    numero1 = int(numero1)
-    if operacao == '+':
-        for soma in range(11):
-            print(f'O resultado é: + {numero1} + {soma} = {numero1+soma}')
-    elif operacao == '-':
-        for soma in range(11):
-            print(f'O resultado é: + {numero1} - {soma} = {numero1-soma}')
-    elif operacao == '*':
-        for soma in range(11):
-            print(f'O resultado é: + {numero1} * {soma} = {numero1*soma}')
-    else:
-         for soma in range(11):
-            print(f'O resultado é: + {numero1} / {soma} = {numero1/soma}')
+valor = float(100)
+dia = 1
 
-
-print('Obrigado por me utilizar.')
+while valor > 20:
+    dia += 0
+    print(f'No dia {dia} o produto será vendido por R${valor}')
+    valor -= 5
