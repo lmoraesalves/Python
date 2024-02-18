@@ -42,4 +42,21 @@ if 20 <= valor < 40:
 else:
     print('Produto negado para publicação.')
 '''
+#For Loop (looping)
+#imprimir de 1 a 5
 
+#assim ele imprime de 0 a 4 pois trabalha com index
+'''
+for numero in range(5):
+    print(numero)
+
+for numero in range(0, 20, 5):
+    print(numero)
+'''
+
+#for loop para string
+
+palavra = 'Espetacular'
+
+for letra in palavra:
+    print(f' {letra} está dentro da palavra {palavra}')
