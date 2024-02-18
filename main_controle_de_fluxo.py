@@ -108,7 +108,7 @@ for l in range(linhas):
 
 #while loop
 #criar promoção para o produto no valor de R$100
-
+'''
 valor = float(100)
 dia = 1
 
@@ -116,3 +116,20 @@ while valor > 20:
     dia += 0
     print(f'No dia {dia} o produto será vendido por R${valor}')
     valor -= 5
+'''
+
+#operador ternário
+'''
+idade = input('Informe sua idade: ')
+idade = int(idade)
+
+# if 100 > idade >= 16:
+#     print('Voto permitido!')
+# else:
+#     print('Idade incorreta.')
+
+
+resultado = 'Voto Permitido' if 100 > idade >= 16 else 'Voto não permitido'
+
+print(resultado)
+'''
