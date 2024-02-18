@@ -11,7 +11,6 @@ print(x)
 '''
 
 #variables
-'''
 x = str(3)
 y = int(4)
 z = float(5)
@@ -19,7 +18,6 @@ z = float(5)
 print(x + x)
 print(y + y)
 print(z + z)
-'''
 
 
 #O Lucas tem 28 anos e mora em barueri
