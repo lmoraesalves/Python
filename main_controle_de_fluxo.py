@@ -137,7 +137,7 @@ print(resultado)
 #condições com while loop
 #publicar um produto com comissão de 10% se for acima de R$20
 
-
+'''
 # Modelo para analise sem break
  
 # var_valor = int(input('Digite o valor do produto R$: '))
@@ -162,3 +162,4 @@ while valor > 20:
     valor = (valor * .1) + valor
     print(f'O valor final do seu produto séra de R${valor}')
     break
+'''
