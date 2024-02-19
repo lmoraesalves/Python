@@ -86,6 +86,6 @@
 #importando os módulos
 #Qual o número fatorial de 4
 
-import math
+# import math
 
-print(math.factorial(57))
+# print(math.factorial(57))
