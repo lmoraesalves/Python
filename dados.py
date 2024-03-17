@@ -233,12 +233,12 @@
 # print(var_s1)
 # print(type(var_s1))
 
-# Sets com strings
+# # Sets com strings
 
-var_set1 = {'a', 'b', 'c'}
-var_set2 = {'a', 'd', 'e'}
-var_set3 = {'c', 'd', 'f'}
+# var_set1 = {'a', 'b', 'c'}
+# var_set2 = {'a', 'd', 'e'}
+# var_set3 = {'c', 'd', 'f'}
 
-var_set4 = var_set1.symmetric_difference(var_set3)
+# var_set4 = var_set1.symmetric_difference(var_set3)
 
-print(var_set4)
+# print(var_set4)
