@@ -166,5 +166,51 @@
 # print(var_duas_listas)
 # print(var_duas_listas2)
 
-# Arrays - utilizado para listas muito grande
+# # Arrays - utilizado para listas muito grande
+#     # Similiar a listas
+#     # Melhor performance
+#     # Tem que exportar o módulo
 
+
+# from array import array
+
+# var_letras = ['a', 'b', 'c', 'd']
+# var_numerosi = [10, 20, 30, 40]
+# var_numerosf = [1.2, 2.2, 3.2]
+
+# print(var_letras)
+# print(var_numerosi)
+# print(var_numerosf)
+# print()
+
+
+# var_letras = array('u', ['a', 'b', 'c', 'd'])
+# var_numerosi = array('i', [10, 20, 30, 40])
+# var_numerosf = array('f', [1.2, 2.2, 3.2])
+
+# print (var_letras)
+# print (var_numerosi)
+# print (var_numerosf)
+
+# Sets - (lists)
+    # Similar a listas
+    # Evita itens duplicados
+    # Não utiliza index
+
+var_list1 = [10, 20, 30, 40, 50]
+var_list2 = [10, 20, 60, 70]
+
+var_num1 = set(var_list1)
+var_num2 = set(var_list2)
+
+print (var_num1 | var_num2) # Union
+print()
+print (var_num1 - var_num2) # Difference
+print()
+print (var_num1 ^ var_num2) # Symmetric Difference # Retira os duplicados em todas as linhas
+print()
+print (var_num1 & var_num2) # And 
+print()
+
+print (len(var_num1)) # Verificar o tamanho da lista
+print (var_num1[0])
