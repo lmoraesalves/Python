@@ -216,19 +216,29 @@
 # # print (var_num1[0]) # Não funciona porque perdeu o index
 
 
-# Funções em Sets 
+# # Funções em Sets 
 
-var_lists1 = [1, 2, 3, 5, 6]
-var_s1 = {1, 2, 3, 4, 5, 6}
-var_s1.add(7)
-var_s1.update({8, 9, 10})
-var_s1.remove(1) 
-var_s1.discard(5) # Remover qualquer número independente da existencia ou não, diferente do remove.
+# var_lists1 = [1, 2, 3, 5, 6]
+# var_s1 = {1, 2, 3, 4, 5, 6}
+# var_s1.add(7)
+# var_s1.update({8, 9, 10})
+# var_s1.remove(1) 
+# var_s1.discard(5) # Remover qualquer número independente da existencia ou não, diferente do remove.
 
 
 
-print(var_lists1)
-print(type(var_lists1))
-print()
-print(var_s1)
-print(type(var_s1))
+# print(var_lists1)
+# print(type(var_lists1))
+# print()
+# print(var_s1)
+# print(type(var_s1))
+
+# Sets com strings
+
+var_set1 = {'a', 'b', 'c'}
+var_set2 = {'a', 'd', 'e'}
+var_set3 = {'c', 'd', 'f'}
+
+var_set4 = var_set1.symmetric_difference(var_set3)
+
+print(var_set4)
