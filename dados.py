@@ -139,3 +139,32 @@
 
 
 # print(var_frutas_list)
+
+
+# #tuples
+#     # Armazenar mais de uma informação em variaveis
+#     # Manter a sequencia dos dados em uma variavel
+#     # Não pode ser alteradar (immutable)
+
+# var_cores_list = ['amarelo', 'verde', 'azul', 'vermelho']
+
+# # Para uma tuple se utiliza "()" e não "[]"
+# var_cores_tuple = ('roxo', 'preto', 'branco', 'rosa')
+
+
+# #Type para imprimir o tipo:
+# # print(type(var_cores_list))
+# # print(type(var_cores_tuple))
+
+# print(var_cores_list)
+# print(var_cores_tuple)
+
+
+# var_duas_listas = var_cores_list * 2
+# var_duas_listas2 = var_cores_tuple * 2
+
+# print(var_duas_listas)
+# print(var_duas_listas2)
+
+# Arrays - utilizado para listas muito grande
+
