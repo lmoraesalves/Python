@@ -192,25 +192,43 @@
 # print (var_numerosi)
 # print (var_numerosf)
 
-# Sets - (lists)
-    # Similar a listas
-    # Evita itens duplicados
-    # Não utiliza index
+# # Sets - (lists)
+#     # Similar a listas
+#     # Evita itens duplicados
+#     # Não utiliza index
 
-var_list1 = [10, 20, 30, 40, 50]
-var_list2 = [10, 20, 60, 70]
+# var_list1 = [10, 20, 30, 40, 50]
+# var_list2 = [10, 20, 60, 70]
 
-var_num1 = set(var_list1)
-var_num2 = set(var_list2)
+# var_num1 = set(var_list1)
+# var_num2 = set(var_list2)
 
-print (var_num1 | var_num2) # Union
-print()
-print (var_num1 - var_num2) # Difference
-print()
-print (var_num1 ^ var_num2) # Symmetric Difference # Retira os duplicados em todas as linhas
-print()
-print (var_num1 & var_num2) # And 
-print()
+# print (var_num1 | var_num2) # Union
+# print()
+# print (var_num1 - var_num2) # Difference
+# print()
+# print (var_num1 ^ var_num2) # Symmetric Difference # Retira os duplicados em todas as linhas
+# print()
+# print (var_num1 & var_num2) # And 
+# print()
 
-print (len(var_num1)) # Verificar o tamanho da lista
-print (var_num1[0])
+# print (len(var_num1)) # Verificar o tamanho da lista
+# # print (var_num1[0]) # Não funciona porque perdeu o index
+
+
+# Funções em Sets 
+
+var_lists1 = [1, 2, 3, 5, 6]
+var_s1 = {1, 2, 3, 4, 5, 6}
+var_s1.add(7)
+var_s1.update({8, 9, 10})
+var_s1.remove(1) 
+var_s1.discard(5) # Remover qualquer número independente da existencia ou não, diferente do remove.
+
+
+
+print(var_lists1)
+print(type(var_lists1))
+print()
+print(var_s1)
+print(type(var_s1))
