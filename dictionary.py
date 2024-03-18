@@ -28,3 +28,28 @@
 
 # for var_keys, var_values in var_aluno.items():
 #     print (var_keys, var_values)
+
+
+# var_aluno = {
+#     'nome': 'Anna', 
+#     'idade': 24, 
+#     'nota_final': 'A', 
+#     'aprovação': True, 
+#     'Matérias': [
+#         'Matemática', 
+#         'Física',
+#         'Inglês'
+#         ]
+# }
+
+
+# # print(var_aluno)
+# # print(  )
+# # print(var_aluno.get('Matérias'))
+# # print(  )
+# # print(len(var_aluno))
+
+# print(var_aluno.items())
+# print(var_aluno.keys())
+# print(var_aluno.values())
+
