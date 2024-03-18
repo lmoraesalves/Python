@@ -96,24 +96,24 @@
 # var_valores = [var_x * 10 for var_x in range(6)]
 # print (var_valores)
 
-# Generator Expressions
-    # Uma forma mais ráída para listas, dicionários, etc..
-    # Menos memória alocada
-    # Valores em bytes
+# # Generator Expressions
+#     # Uma forma mais ráída para listas, dicionários, etc..
+#     # Menos memória alocada
+#     # Valores em bytes
 
 
-from sys import getsizeof
+# from sys import getsizeof
 
-var_numeros = [var_x * 10 for var_x in range(10)]
+# var_numeros = [var_x * 10 for var_x in range(10)]
 
 
-print (type(var_numeros))
-print (var_numeros)
-print (getsizeof(var_numeros))
+# print (type(var_numeros))
+# print (var_numeros)
+# print (getsizeof(var_numeros))
 
-print ('-------------')
-var_numeros = (var_x * 10 for var_x in range(10)) # Para generator expression, tira o "[]" e coloca p "()"
+# print ('-------------')
+# var_numeros = (var_x * 10 for var_x in range(10)) # Para generator expression, tira o "[]" e coloca p "()"
 
-print (type(var_numeros))
-print (list(var_numeros))
-print (getsizeof(var_numeros))
+# print (type(var_numeros))
+# print (list(var_numeros))
+# print (getsizeof(var_numeros))
