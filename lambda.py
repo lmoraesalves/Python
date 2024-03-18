@@ -67,3 +67,53 @@
 
 # print (list(map(lambda x: x > 20, var_valores)))
 # print (list(filter(lambda x: x > 20, var_valores)))
+
+# # List Comprehesion com Strings
+#     # Mias simples de escrever
+#     # Utilizado quando você precisa criar uma nova lista a partir de uma existente
+#     # [Expressão for inten in itens]
+
+# var_frutas1 = ['abacate', 'banana', 'morango', 'kiwi', 'abacaxi']
+# # var_frutas2 = []
+
+# # for var_iten in var_frutas1:
+# #     if 'n' in var_iten:
+# #         var_frutas2.append(var_iten)
+
+# var_frutas2 = [iten for iten in var_frutas1 if 'b' in iten]
+# print (var_frutas2)
+
+
+# # List Comprehesion com Integers
+
+# # var_valores = []
+
+# # for var_x in range(6):
+# #     var_valores.append(var_x * 10)
+
+# # print (var_valores)
+
+# var_valores = [var_x * 10 for var_x in range(6)]
+# print (var_valores)
+
+# Generator Expressions
+    # Uma forma mais ráída para listas, dicionários, etc..
+    # Menos memória alocada
+    # Valores em bytes
+
+
+from sys import getsizeof
+
+var_numeros = [var_x * 10 for var_x in range(10)]
+
+
+print (type(var_numeros))
+print (var_numeros)
+print (getsizeof(var_numeros))
+
+print ('-------------')
+var_numeros = (var_x * 10 for var_x in range(10)) # Para generator expression, tira o "[]" e coloca p "()"
+
+print (type(var_numeros))
+print (list(var_numeros))
+print (getsizeof(var_numeros))
