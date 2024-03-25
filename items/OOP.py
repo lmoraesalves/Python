@@ -66,33 +66,33 @@
 # print(var_user2.nome, var_user2.sobrenome, var_user2.data_nasc)
 # print(var_user3.nome, var_user3.sobrenome, var_user3.data_nasc)
 
-from datetime import datetime
-class Funcionaros:
+# from datetime import datetime
+# class Funcionaros:
 
-    def __init__(self, nome, sobrenome, ano_nasc):
-        self.nome = nome
-        self.sobrenome = sobrenome
-        self.ano_nasc = ano_nasc
+#     def __init__(self, nome, sobrenome, ano_nasc):
+#         self.nome = nome
+#         self.sobrenome = sobrenome
+#         self.ano_nasc = ano_nasc
     
-    def var_idade_func(self):
-        var_anoatual = datetime.now().year
-        self.ano_nasc =  int(var_anoatual - self.ano_nasc)
-        return self.ano_nasc
+#     def var_idade_func(self):
+#         var_anoatual = datetime.now().year
+#         self.ano_nasc =  int(var_anoatual - self.ano_nasc)
+#         return self.ano_nasc
     
-    def var_dados_completo(self):
-        return f'{self.nome} {self.sobrenome} {self.var_idade_func()}'
+#     def var_dados_completo(self):
+#         return f'{self.nome} {self.sobrenome} {self.var_idade_func()}'
 
-# Criar o Objeto
-var_user1 = Funcionaros('Anna', 'Oliveira', 2000)
-var_user2 = Funcionaros('Lucas', 'Alves', 1995)
-var_user3 = Funcionaros('Sophia', 'Hadassa', 2017)
+# # Criar o Objeto
+# var_user1 = Funcionaros('Anna', 'Oliveira', 2000)
+# var_user2 = Funcionaros('Lucas', 'Alves', 1995)
+# var_user3 = Funcionaros('Sophia', 'Hadassa', 2017)
 
-# print(var_user1.nome, var_user1.sobrenome, var_user1.data_nasc)
+# # print(var_user1.nome, var_user1.sobrenome, var_user1.data_nasc)
 
-print(var_user1.var_dados_completo())
-print(var_user2.var_dados_completo())
-print(var_user3.var_dados_completo())
+# print(var_user1.var_dados_completo())
+# print(var_user2.var_dados_completo())
+# print(var_user3.var_dados_completo())
 
-print (Funcionaros.var_dados_completo(var_user1))
-print (Funcionaros.var_dados_completo(var_user2))
-print (Funcionaros.var_dados_completo(var_user3))
+# # print (Funcionaros.var_dados_completo(var_user1))
+# # print (Funcionaros.var_dados_completo(var_user2))
+# # print (Funcionaros.var_dados_completo(var_user3))
